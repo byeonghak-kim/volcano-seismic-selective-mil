@@ -1,5 +1,20 @@
 # Selective MIL for volcano-seismic waveform archives
 
+**Two records. One event prediction. Expert review when confidence is insufficient.**
+
+[Architecture](#model-at-a-glance) · [Results](#main-chronological-result) ·
+[Installation](#installation) · [Quick demo](#synthetic-preprocessed-input-demo) ·
+[Authors](#authors-and-contact)
+
+## Model at a glance
+
+![Two-record waveform MIL architecture and confidence-based expert referral](docs/figures/model_architecture.svg)
+
+*Two consecutive three-component records share a 1D CNN encoder. Soft attention
+combines their representations; a calibrated three-model ensemble produces an
+automatic A/B/T label or refers the event for expert review. Waveforms in the
+diagram are illustrative, not redistributed observations.*
+
 This repository is the public-release candidate accompanying a study of JMA
 type-A volcanic earthquakes, type-B volcanic earthquakes, and volcanic tremor.
 It implements the frozen final system and a portable, method-equivalent
@@ -23,6 +38,13 @@ The public loader converts archived checkpoints to the mathematically
 equivalent effective inference graph; equivalence is covered by tests.
 
 ## Main chronological result
+
+![Selective classification of 574 temporal-test events: 398 accepted and 176 referred](docs/figures/selective_results.svg)
+
+*Frozen operating point on the October–December 2023 retrospective test set:
+398 of 574 events accepted (69.34% coverage), with 384 correct accepted predictions
+(96.48% accepted accuracy). Of 66 model errors at full coverage, 52 fall in the
+referral queue. Expert-review outcomes were not measured.*
 
 Partitioning used catalogue event time, defined by the first record. Training
 and validation catalogue rows have first-record times in January--September

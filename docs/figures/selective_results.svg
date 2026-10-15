@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190mm" height="124.8571mm" viewBox="0 0 1400 920"><rect width="100%" height="100%" fill="white"/>
+<rect x="42" y="24" width="1300" height="46" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="38" font-weight="bold" fill="#182B3A" text-anchor="start"><tspan x="42" y="59.730000000000004">a   Where the 574 test events went</tspan></text>
+<rect x="60" y="110" width="820" height="42" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="34" font-weight="bold" fill="#087F80" text-anchor="start"><tspan x="60" y="142.39000000000001">Automatic handling</tspan></text>
+<rect x="942" y="110" width="410" height="42" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="34" font-weight="bold" fill="#A76229" text-anchor="start"><tspan x="942" y="142.39000000000001">Expert review</tspan></text>
+<rect x="60" y="176" width="880.5923344947735" height="115" rx="0" fill="#E0F0ED" stroke="none" stroke-width="0"/>
+<rect x="940.5923344947735" y="176" width="389.4076655052265" height="115" rx="0" fill="#F3E4D6" stroke="none" stroke-width="0"/>
+<rect x="80" y="200" width="840.5923344947735" height="65" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="42" font-weight="bold" fill="#087F80" text-anchor="middle"><tspan x="500.29616724738673" y="246.57">398 events  /  69.3%</tspan></text>
+<rect x="952.5923344947735" y="200" width="365.4076655052265" height="65" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="38" font-weight="bold" fill="#A76229" text-anchor="middle"><tspan x="1135.2961672473866" y="245.23000000000002">176  /  30.7%</tspan></text>
+<rect x="60" y="323" width="480" height="38" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="29" font-weight="normal" fill="#182B3A" text-anchor="start"><tspan x="60" y="351.715">Correct model prediction</tspan></text>
+<rect x="520" y="331" width="20" height="22" rx="0" fill="#80B9AC" stroke="none" stroke-width="0"/>
+<rect x="543" y="331" width="20" height="22" rx="0" fill="#D8B491" stroke="none" stroke-width="0"/>
+<rect x="707" y="323" width="540" height="38" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="29" font-weight="normal" fill="#182B3A" text-anchor="start"><tspan x="707" y="351.715">Incorrect model prediction</tspan></text>
+<rect x="1263" y="331" width="27" height="22" rx="0" fill="#A83840" stroke="none" stroke-width="0"/>
+<rect x="60" y="387" width="849.616724738676" height="65" rx="0" fill="#80B9AC" stroke="none" stroke-width="0"/>
+<rect x="909.616724738676" y="387" width="30.975609756097562" height="65" rx="0" fill="#A83840" stroke="none" stroke-width="0"/>
+<rect x="940.5923344947735" y="387" width="274.35540069686414" height="65" rx="0" fill="#D8B491" stroke="none" stroke-width="0"/>
+<rect x="1214.9477351916375" y="387" width="115.05226480836237" height="65" rx="0" fill="#A83840" stroke="none" stroke-width="0"/>
+<rect x="80" y="396" width="809.616724738676" height="47" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="31" font-weight="bold" fill="#182B3A" text-anchor="middle"><tspan x="484.808362369338" y="429.885">384 correct</tspan></text>
+<rect x="945.5923344947735" y="396" width="264.35540069686414" height="47" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="28" font-weight="bold" fill="#182B3A" text-anchor="middle"><tspan x="1077.7700348432056" y="428.88">124 correct</tspan></text>
+<rect x="1214.9477351916375" y="396" width="115.05226480836237" height="47" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="30" font-weight="bold" fill="#FFFFFF" text-anchor="middle"><tspan x="1272.4738675958188" y="429.55">52</tspan></text>
+<path d="M 100.48780487804879 0 L 100.48780487804879 20 L 0 20" transform="translate(824.616724738676 459) scale(1 1)" fill="none" stroke="#A83840" stroke-width="2"/>
+<rect x="695.616724738676" y="465" width="130" height="35" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="28" font-weight="bold" fill="#A83840" text-anchor="end"><tspan x="825.616724738676" y="491.88">14 errors</tspan></text>
+<rect x="925" y="470" width="425" height="35" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="28" font-weight="bold" fill="#A83840" text-anchor="middle"><tspan x="1137.5" y="496.88">52 potential errors referred</tspan></text>
+<rect x="60" y="468" width="690" height="42" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="34" font-weight="bold" fill="#087F80" text-anchor="start"><tspan x="60" y="500.39">Accepted accuracy 96.5%</tspan></text>
+<rect x="42" y="540" width="1316" height="1" rx="0" fill="#BCC9D1" stroke="none" stroke-width="0"/>
+<rect x="42" y="565" width="1310" height="45" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="38" font-weight="bold" fill="#182B3A" text-anchor="start"><tspan x="42" y="600.23">b   Errors concentrate in the review queue</tspan></text>
+<rect x="60" y="632" width="800" height="35" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="29" font-weight="normal" fill="#596875" text-anchor="start"><tspan x="60" y="659.215">Model error rate within each stream</tspan></text>
+<rect x="60" y="701" width="250" height="40" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="31" font-weight="bold" fill="#087F80" text-anchor="start"><tspan x="60" y="731.385">Accepted</tspan></text>
+<rect x="340" y="700" width="70.35175879396985" height="45" rx="0" fill="#087F80" stroke="none" stroke-width="0"/>
+<rect x="428.35175879396985" y="697" width="310" height="48" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="31" font-weight="bold" fill="#087F80" text-anchor="start"><tspan x="428.35175879396985" y="731.385">3.5%  (14/398)</tspan></text>
+<rect x="60" y="787" width="250" height="40" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="31" font-weight="bold" fill="#A76229" text-anchor="start"><tspan x="60" y="817.385">Referred</tspan></text>
+<rect x="340" y="786" width="590.909090909091" height="45" rx="0" fill="#A76229" stroke="none" stroke-width="0"/>
+<rect x="948.909090909091" y="783" width="170" height="48" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="32" font-weight="bold" fill="#A76229" text-anchor="start"><tspan x="948.909090909091" y="817.72">29.5%</tspan></text>
+<rect x="1120" y="640" width="220" height="64" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="48" font-weight="bold" fill="#A83840" text-anchor="middle"><tspan x="1230" y="688.0799999999999">78.8%</tspan></text>
+<rect x="1095" y="713" width="270" height="111" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="28" font-weight="normal" fill="#182B3A" text-anchor="middle"><tspan x="1230" y="745.6800000000001">of potential errors</tspan><tspan x="1230" y="777.8800000000001">sent for review</tspan><tspan x="1230" y="810.08">52 of 66</tspan></text>
+<rect x="60" y="869" width="1290" height="33" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<text font-family="Times New Roman,serif" font-size="26" font-weight="normal" fill="#596875" text-anchor="start"><tspan x="60" y="894.2099999999999">Referred errors describe the model prediction before expert review, not expert mistakes.</tspan></text>
+</svg>
