@@ -329,6 +329,18 @@ print(result[["prediction", "confidence", "decision"]])
 
 ## Citation and release metadata
 
+### Authors and contact
+
+| Author | Email |
+|---|---|
+| Byeonghak Kim | [bhkim715@korea.kr](mailto:bhkim715@korea.kr) |
+| Kyungmin Min | [mkmzx@korea.kr](mailto:mkmzx@korea.kr) |
+| Eunyoung Jo (corresponding author) | [jey0817@korea.kr](mailto:jey0817@korea.kr) |
+| Eui-Hong Hwang | [hkawon1@korea.kr](mailto:hkawon1@korea.kr) |
+
+All authors: Earthquake and Volcano Research Division, Korea Meteorological
+Administration, Seoul 07062, Republic of Korea.
+
 Software authors are recorded in `CITATION.cff`. Repository URL, release date,
 and archival DOI will be added when they exist. Article metadata will be added
 after publication; the software title does not imply a published article.
