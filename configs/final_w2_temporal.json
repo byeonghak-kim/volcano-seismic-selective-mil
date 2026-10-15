@@ -1,0 +1,43 @@
+{
+  "model_name": "W2_soft_q_MIL_probability_ensemble_3seed",
+  "classes": ["A", "B", "T"],
+  "sampling_rate_hz": 100,
+  "records_per_event": 2,
+  "record_seconds": 60,
+  "samples_per_record": 6000,
+  "components": 3,
+  "feature_vector_dimension": 0,
+  "legacy_checkpoint_zero_feature_columns": 2,
+  "uses_ssl": false,
+  "uses_engineered_features": false,
+  "uses_max_pooling": false,
+  "uses_window_auxiliary_head": false,
+  "uses_bt_auxiliary_head": false,
+  "quality_mode": "soft_q_floor",
+  "quality_floor": 0.05,
+  "normalization_mean": [-0.014069421216845512, -0.0075105829164385796, 0.0013066143728792667],
+  "normalization_sd": [918.5931396484375, 885.2073364257812, 714.2727661132812],
+  "log_prior": [-2.2613747119903564, -0.49796372652053833, -1.2447049617767334],
+  "seeds": [17, 42, 73],
+  "temperatures": {
+    "17": 0.5952595303723589,
+    "42": 0.5098293538500619,
+    "73": 0.5186144919625266
+  },
+  "checkpoints": {
+    "17": "models/w2_softq_seed17.pt",
+    "42": "models/w2_softq_seed42.pt",
+    "73": "models/w2_softq_seed73.pt"
+  },
+  "acceptance_score": "maximum_ensemble_probability",
+  "a_probability_multiplier": 0.25464158411554416,
+  "predicted_class_thresholds": {
+    "A": 0.9519033419752547,
+    "B": 0.8790783923425981,
+    "T": 0.8972924214771505
+  },
+  "validation_target_coverage": 0.45,
+  "validation_realized_coverage": 0.4372331340734415,
+  "chronological_test_realized_coverage": 0.6933797909407665,
+  "policy_selection_rule": "maximum validation coverage with accepted accuracy >= 0.96 and macro-F1 >= 0.95 after validation-selected class-A probability adjustment"
+}

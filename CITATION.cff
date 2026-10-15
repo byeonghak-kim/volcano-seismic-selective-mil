@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository. Article metadata will be added after publication."
+title: "Selective MIL for volcano-seismic waveform archives"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/byeonghak-kim/volcano-seismic-selective-mil"
+license: MIT
+authors:
+  - family-names: Kim
+    given-names: Byeonghak
+  - family-names: Min
+    given-names: Kyungmin
+  - family-names: Jo
+    given-names: Eunyoung
+  - family-names: Hwang
+    given-names: Eui-Hong

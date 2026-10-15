@@ -1,0 +1,2 @@
+model,rate_A,rate_B,rate_T,threshold_A,threshold_B,threshold_T,validation_coverage,nominal_target_coverage,selection_rule
+W2 MIL (class-A probability adjustment),0.75,0.45,0.3,0.9519033419752548,0.8790783923425981,0.8972924214771505,0.4372331340734415,0.45,maximum validation coverage with accepted accuracy >=0.96 and macro-F1 >=0.95

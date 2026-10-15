@@ -1,0 +1,49 @@
+{
+  "verification_scope": "private-derived chronological-test reference; event-level inputs and reference probabilities are not distributed",
+  "n_events": 574,
+  "maximum_absolute_probability_difference": 0.0001640100627673391,
+  "mean_absolute_probability_difference": 9.941632030862647e-06,
+  "probability_tolerance": 0.0002,
+  "prediction_agreement": 1.0,
+  "accept_refer_agreement": 1.0,
+  "expected_coverage": 0.6933797909407665,
+  "reproduced_coverage": 0.6933797909407665,
+  "provenance": {
+    "input_tensor": {
+      "sha256": "97928fe5df961a019fec3d7a9ff856eb99a51dc2c821d9db8ca9792de3dfc5a5",
+      "hash_definition": "SHA-256 over C-order float32 bytes for the 574 selected tensors",
+      "shape": [574, 2, 3, 6000],
+      "dtype": "float32",
+      "private_source_cache_sha256": "04b052d1d668b848a865eb77fe3d0c65a36446fbcdd6acf171e1a19c6cd080ff",
+      "test_source_event_index_sha256": "23854ee929243919cd1c51031d019d930ef8cee973b9bdb8d57ade19e4bea488",
+      "selection_manifest_sha256": "670c24e1e23952daa60e27194f1b238fb52cdc9afff6429a88023b563a7265eb"
+    },
+    "reference_probability": {
+      "sha256": "9a7aa25a513fd53dd0cd6d0dd41d80aec29329d73b1cec8046fa0b1de61a372c",
+      "hash_definition": "SHA-256 over C-order float64 bytes after three-seed averaging, renormalization, and the validation-selected class-A probability adjustment",
+      "shape": [574, 3],
+      "dtype": "float64",
+      "private_seed17_source_sha256": "bd31b3f044e096e95043ec14b5e8565625a6898ed14f5342b42976ae4c3e0fac",
+      "private_seed42_source_sha256": "3efc03f42370b1e827b0e73e90a39fb723f96274e7978f067814322dd1d3c1a3",
+      "private_seed73_source_sha256": "efef444015be604b056aa72df2fbec6a0d6ba71c5f8c4253e45d0c1d19d9197f"
+    },
+    "release_config_sha256": "2b10ae2caace86403a6837bf694adddc06edd4d2f5657a8f6113129247c2eb7e",
+    "frozen_checkpoint_sha256": {
+      "w2_softq_seed17.pt": "c36f59fd51794ab9c1d04818d58559b14982ba7fbf49b6ea84a13f7ef282ea3d",
+      "w2_softq_seed42.pt": "e21ac6c60baef793ce67d07a0f8cec7a4072767a9c599d84ccaec50aa9689b76",
+      "w2_softq_seed73.pt": "fbccd6ad0f25a453bb2ca012a420e55a57ea4535208cc463ac9008bf185e4dcf"
+    },
+    "device": "cpu",
+    "runtime": {
+      "python": "3.9.18",
+      "numpy": "1.26.2",
+      "pandas": "2.1.4",
+      "scipy": "1.11.4",
+      "scikit_learn": "1.3.0",
+      "torch": "2.6.0+cpu",
+      "platform": "Windows 10 10.0.19045"
+    },
+    "private_event_level_artifacts_distributed": false
+  },
+  "status": "pass"
+}

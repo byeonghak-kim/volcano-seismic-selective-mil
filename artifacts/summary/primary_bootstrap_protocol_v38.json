@@ -1,0 +1,9 @@
+{
+  "scope": "retrospective October-December temporal backtest",
+  "model": "W2 MIL (class-A probability adjustment)",
+  "test_events": 574,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_unit": "overlap group, stratified by true A/B/T class",
+  "policy_selection": "January-September validation only",
+  "test_label_threshold_tuning": false
+}

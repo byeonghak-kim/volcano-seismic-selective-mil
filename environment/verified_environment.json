@@ -1,0 +1,12 @@
+{
+  "scope": "core direct dependencies used for the final public-package verification",
+  "python": "3.9.18",
+  "numpy": "1.26.2",
+  "pandas": "2.1.4",
+  "scipy": "1.11.4",
+  "scikit-learn": "1.3.0",
+  "torch": "2.6.0+cpu",
+  "pytest": "7.4.0",
+  "platform": "Windows 10 10.0.19045",
+  "note": "This is a concise verified snapshot, not a freeze of unrelated environment packages. CUDA inference was verified separately in the frozen runtime artifact."
+}

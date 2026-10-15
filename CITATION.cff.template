@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article and software release."
+title: "[FINAL SOFTWARE TITLE]"
+version: 0.1.0
+date-released: 2026-XX-XX
+authors:
+  - family-names: "[FAMILY NAME]"
+    given-names: "[GIVEN NAME]"
+repository-code: "[PUBLIC REPOSITORY URL]"
+doi: "[ARCHIVAL SOFTWARE DOI]"
+license: MIT
+

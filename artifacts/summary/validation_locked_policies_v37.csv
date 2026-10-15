@@ -1,0 +1,22 @@
+model,policy,threshold,validation_coverage,test_coverage,threshold_A,threshold_B,threshold_T,status
+W2 MIL (class-A probability adjustment),global MSP @70%,0.7432317513674458,0.7002561912894961,0.8432055749128919,,,,
+W2 MIL (class-A probability adjustment),class-aware @70%,,0.6806148590947908,0.8623693379790941,0.5000318544243022,0.786610198260143,0.6913636297190814,
+W2 MIL (class-A probability adjustment),max coverage under validation performance constraints,,0.4372331340734415,0.6933797909407665,,,,
+Logistic regression (144 features),global MSP @70%,0.6379667008844226,0.7002561912894961,0.705574912891986,,,,
+Logistic regression (144 features),class-aware @70%,,0.681468830059778,0.6724738675958188,0.8772122051292984,0.5953158826317957,0.6446260190680576,
+Logistic regression (144 features),max coverage under validation performance constraints,,,,,,,infeasible
+Random forest (144 features),global MSP @70%,0.7169863894103738,0.7002561912894961,0.6585365853658537,,,,
+Random forest (144 features),class-aware @70%,,0.6848847139197267,0.6724738675958188,0.8657671604380921,0.61863437153495,0.7691876127323657,
+Random forest (144 features),max coverage under validation performance constraints,,,,,,,infeasible
+RBF-SVM (144 features),global MSP @70%,0.8122599771150399,0.7002561912894961,0.8327526132404182,,,,
+RBF-SVM (144 features),class-aware @70%,,0.6840307429547395,0.8397212543554007,0.8008817007440714,0.8131984657003191,0.8148798564929964,
+RBF-SVM (144 features),max coverage under validation performance constraints,,,,,,,infeasible
+Histogram gradient boosting (144 features),global MSP @70%,0.7292833240252701,0.7113578138343296,0.8083623693379791,,,,
+Histogram gradient boosting (144 features),class-aware @70%,,0.6942783945345858,0.8066202090592335,0.840939287147834,0.6356382176173677,0.7863356105505442,
+Histogram gradient boosting (144 features),max coverage under validation performance constraints,,,,,,,infeasible
+120-s concatenation CNN (standard training),global MSP @70%,0.6877349834077016,0.7002561912894961,0.5557491289198606,,,,
+120-s concatenation CNN (standard training),class-aware @70%,,0.6840307429547395,0.4756097560975609,0.8182618597718178,0.7103783739512218,0.6474848267194523,
+120-s concatenation CNN (standard training),max coverage under validation performance constraints,,,,,,,infeasible
+120-s concatenation CNN (imbalance-adjusted training),global MSP @70%,0.6650343454868748,0.7002561912894961,0.8170731707317073,,,,
+120-s concatenation CNN (imbalance-adjusted training),class-aware @70%,,0.6823228010247652,0.7752613240418118,0.8117900163716459,0.6728046241577256,0.6696946807631493,
+120-s concatenation CNN (imbalance-adjusted training),max coverage under validation performance constraints,,,,,,,infeasible

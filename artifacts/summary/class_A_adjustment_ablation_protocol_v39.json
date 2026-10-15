@@ -1,0 +1,14 @@
+{
+  "source_probability_family": "models/w2_softq_seed17.pt, models/w2_softq_seed42.pt, and models/w2_softq_seed73.pt; temperatures are frozen in configs/final_w2_temporal.json and file hashes in SHA256SUMS.csv",
+  "selected_training_variant": "uniform_unweighted_focal",
+  "source_split": "private chronological event manifest constructed by scripts/build_temporal_split.py; aggregate split results are supplied under artifacts/summary",
+  "probability_adjustment": "multiply class-A probability and renormalize",
+  "class_A_multiplier": 0.25464158411554416,
+  "multiplier_selection": "validation full-coverage A precision >= 0.98; rank by macro-F1, accuracy, A F1, then A recall",
+  "threshold_search": "separately refit the validation performance-constrained policy at each probability stage",
+  "validation_performance_constraints": {
+    "accepted_accuracy": 0.96,
+    "accepted_macro_f1": 0.95
+  },
+  "test_labels_used_for_fitting": false
+}

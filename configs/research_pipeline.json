@@ -1,0 +1,82 @@
+{
+  "classes": ["A", "B", "T"],
+  "preprocessing": {
+    "component_order": ["E", "N", "U_or_Z"],
+    "amplitude_domain": "stored_native_SAC_samples",
+    "instrument_response_correction": false,
+    "demean_each_component": true,
+    "butterworth_order": 4,
+    "bandpass_hz": [0.5, 30.0],
+    "filter_application": "SOS forward, reverse, SOS forward, reverse back",
+    "target_sampling_rate_hz": 100.0,
+    "resampling": "scipy.signal.resample",
+    "samples_per_record": 6000,
+    "length_rule": "crop from sample 0 or right-zero-pad"
+  },
+  "temporal_split": {
+    "cutoff": "2023-10-01T00:00:00",
+    "group_rule": "partition by first-record catalogue time and keep each overlap-connected component within one partition",
+    "validation_folds": 5,
+    "validation_fold": 0,
+    "seed": 42
+  },
+  "quality_floor": 0.05,
+  "training": {
+    "seeds": [17, 42, 73],
+    "epochs": 35,
+    "batch_size": 16,
+    "learning_rate": 0.0006,
+    "device": "cpu",
+    "loss": "unweighted focal gamma=2 with label smoothing=0.02",
+    "sampling": "uniform with replacement",
+    "log_prior_tau": 1.0,
+    "checkpoint_selection": "validation full-coverage macro-F1, then accuracy",
+    "calibration": "per-seed validation NLL temperature"
+  },
+  "baseline_training": {
+    "seed": 42,
+    "selection": "validation macro-F1"
+  },
+  "cnn_training": {
+    "seeds": [17, 42, 73],
+    "epochs": 35,
+    "recipes": {
+      "standard": {
+        "batch_size": 128,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "cosine_eta_min": 0.00002,
+        "early_stopping_patience": 8,
+        "loss": "effective-number weighted cross-entropy with label smoothing=0.02",
+        "sampling": "shuffle"
+      },
+      "imbalance_adjusted": {
+        "batch_size": 16,
+        "learning_rate": 0.0006,
+        "weight_decay": 0.01,
+        "cosine_eta_min": 0.0,
+        "early_stopping_patience": null,
+        "loss": "effective-number weighted focal gamma=2 with label smoothing=0.02 and log prior",
+        "sampling": "inverse-frequency with replacement"
+      }
+    },
+    "checkpoint_selection": "validation macro-F1, then validation accuracy",
+    "calibration": "per-seed validation NLL temperature, then probability averaging"
+  },
+  "policy": {
+    "class_A_precision_constraint": 0.98,
+    "target_coverage": 0.70,
+    "coverage_tolerance": 0.02,
+    "minimum_accepted_accuracy": 0.96,
+    "minimum_accepted_macro_f1": 0.95,
+    "coverage_targets": [0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80],
+    "rate_grid": [0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95, 1.00]
+  },
+  "resampling": {
+    "repetitions": 10000,
+    "seed": 20260810,
+    "bootstrap_unit": "overlap group stratified by true class",
+    "random_referral_schemes": ["uniform", "true_class_count_matched", "predicted_class_count_matched"],
+    "matched_count_temporal_test": 398
+  }
+}

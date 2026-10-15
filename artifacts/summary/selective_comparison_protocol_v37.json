@@ -1,0 +1,57 @@
+{
+  "split_sizes": {
+    "train": 4635,
+    "validation": 1171,
+    "chronological_test": 574
+  },
+  "test_period": "2023-10-01 through 2023-12-31",
+  "no_test_label_policy_tuning": true,
+  "deployable_comparisons": [
+    "global MSP @70% validation coverage",
+    "shared class-aware search @70% validation coverage",
+    "shared validation performance-constraint rule"
+  ],
+  "matched_coverage_diagnostic": "398 highest-confidence test predictions; test labels are not used; not a deployable threshold",
+  "feature_model_selection": {
+    "Logistic regression (144 features)": {
+      "C": 0.1,
+      "score": [
+        0.7510377710180691,
+        0.7608881298035867,
+        0.6432584269662922
+      ],
+      "temperature": 1.0756747362289016
+    },
+    "Random forest (144 features)": {
+      "max_depth": 12,
+      "min_samples_leaf": 8,
+      "score": [
+        0.7887141307413682,
+        0.8018787361229718,
+        0.6745562130177516
+      ],
+      "temperature": 0.784976887485375
+    },
+    "RBF-SVM (144 features)": {
+      "C": 10.0,
+      "gamma": "scale",
+      "score": [
+        0.792780955900127,
+        0.8052946199829206,
+        0.6907514450867052
+      ],
+      "temperature": 0.6735804788390682
+    },
+    "Histogram gradient boosting (144 features)": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15,
+      "l2_regularization": 0.0,
+      "score": [
+        0.7922498270738948,
+        0.8044406490179334,
+        0.6746268656716419
+      ],
+      "temperature": 1.1517508416847118
+    }
+  }
+}
