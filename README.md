@@ -356,8 +356,8 @@ print(result[["prediction", "confidence", "decision"]])
 | Author | Email |
 |---|---|
 | Byeonghak Kim | [bhkim715@korea.kr](mailto:bhkim715@korea.kr) |
-| Kyungmin Min | [mkmzx@korea.kr](mailto:mkmzx@korea.kr) |
-| Eunyoung Jo (corresponding author) | [jey0817@korea.kr](mailto:jey0817@korea.kr) |
+| Kyungmin Min (corresponding author) | [mkmzx@korea.kr](mailto:mkmzx@korea.kr) |
+| Eunyoung Jo | [jey0817@korea.kr](mailto:jey0817@korea.kr) |
 | Eui-Hong Hwang | [hkawon1@korea.kr](mailto:hkawon1@korea.kr) |
 
 All authors: Earthquake and Volcano Research Division, Korea Meteorological
